@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoConsum</string>
+
+    <string name="not_available">No disponible</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="search">Cerca</string>
+
+    <string name="search_by_regulation_Title">Cerca de normativa</string>
+    <string name="search_by_location_Title">Cerca per localització</string>
+    
+    <string name="labelSearchByWords">Cerca per tema</string>
+
+    <string name="buttonSearch">Cerca</string>
+    <string name="buttonSearchByLocation">Cerca per localització</string>
+    <string name="buttonSearchByPlaceNear">Properes</string>
+    <string name="buttonAdvancedSearchByPlace">Cerca per localització</string>
+
+    <string name="buttonSearchByRegulation">Cerca de normatives</string>    
+    <string name="buttonAdvancedSearchByRegulation">Cerca avançada</string>    
+
+    <string name="textView_TypeOfLocation">Tipus d\'entitat</string>        
+    <string name="textView_AutonomousRegion">Àmbit territorial</string>
+    <string name="textView_Province">Província</string>
+    <string name="textView_Locality">Localitat</string>
+    <string name="textView_TypeRegulation">Tipus de normativa</string>
+    <string name="textView_SubtypeRegulation">Subtipus de normativa</string>
+    <string name="Regulations">Normatives</string>
+    <string name="Places">Oficines</string>
+    <string name="InfoMain">GeoConsum és la teva aplicació mòbil per conèixer els teus drets i contactar amb les entitats que et poden defensar</string>
+
+	<!-- ##################  Search Dialog Activity ###################-->
+    <string name="label_SearchRegulationByTopic">Cerca per tema</string>
+    <string name="textView_SearchRegulationByTopic">Introdueixi les paraules per les quals vol cercar normatives.\n\nRecordi que les normatives es troben escrites en el llenguatge pel qual van ser pensades, per la qual cosa si cerca normatives catalanes haurà d\'utilitzar català, i si cerca normatives estatals haurà de fer-ho en castellà.</string>
+    <string name="textRecognizer">Reconeixement de text. Parli ara</string>
+    
+	<!-- ############################################################## -->
+    <string name="textview_placedetail_direction">Adreça</string>
+    <string name="textview_placedetail_town_and_province">Localitat i província</string>
+    <string name="textview_placedetail_description">Descripció</string>
+    <string name="textview_placedetail_telephone">Telèfon</string>
+    <string name="textview_placedetail_fax">Fax</string>
+    <string name="textview_placedetail_email">Correu</string>
+    <string name="textview_placedetail_url">Web</string>
+    <string name="textview_placedetail_checkMap">Premi el butó del mapa per veure un mapa amb la posició del lloc, o el botó de la fletxa per a calcular una ruta fins aquest destí.</string>
+	<!-- ############################################################## -->
+	<string name="textview_regulationdetail_scope">Àmbit</string>
+	<string name="textview_regulationdetail_type">Tipus</string>
+	<string name="textview_regulationdetail_subtype">Subtipus</string>
+	<string name="textview_regulationdetail_descripcion">Descripció</string>
+	<string name="textview_regulationdetail_url">Enllaç</string>
+	
+	<string name="label_meters">metres</string>
+	    
+	<string name="show_again">mostrar de nou</string>
+	<string name="dialog_title_warning">Atenció!</string>
+	
+	<string name="dialog_text_warning">
+	Tingui en compte:\n\n
+	* Abans d\'accedir a un sistema públic de consum hauria d\'intentar resoldre la seva queixa amb el proveïdor del producte o servei que hagi
+	adquirit.\n\n
+	* Tingui en compte que el Codi de Consum estableix que és competent el servei públic de consum del municipi on estigui domiciliada la persona consumidora. Si al municipi no hi ha cap oficina, n\'és competent l\'oficina supramunicipal que correspongui i, si no n\'hi ha, la d\'àmbit de Catalunya.
+	</string>
+	<string name="dialog_ok">Tancar</string>
+
+	<string name="dialog_title_about">Condicions d\'ús de</string>	
+	<string name="dialog_text_about">
+	1. Objecte.\n\n
+	\t1.1. Geoconsum és una aplicació mòbil que conté informació sobre organismes
+dedicats a la protecció dels consumidors en l\'àmbit de Catalunya. També ofereix
+accés a una base de dades de legislació de consum de l\'àmbit de Catalunya, així
+com disposicions de caire estatal i europeu.\n\n
+	\t1.2. Geoconsum pretén ser una eina divulgativa que proporcioni informació
+d’interés pels consumidors catalans.\n\n
+	\t1.3. Geoconsum s\'ha desenvolupat en el marc de projectes d’investigació. En cap
+cas pretén ser una eina d\'ús professional o comercial.\n\n
+	2. Condicions d\'ús.\n\n
+	\t2.1. Geoconsum és un aplicatiu mòbil que pot descarregar-se als dispositius amb
+sistema operatiu Android.\n\n
+	\t2.2. La descàrrega d\'aquest aplicatiu comporta la subjecció a aquestes condicions
+d\'ús així com qualsevol altres condicions particulars que es puguin establir.\n\n
+	\t2.3. S\'autoritza als usuaris d’aquesta aplicació la visualització, reproducció i
+descàrrega del seu contingut si concurreixen les seguents condicions:\n
+\t\t1. Que sigui compatible amb les finalitats no empresarials de Geoconsum.\n
+\t\t2. Que es realitzi un ús personal i privat del seu contingut. Es prohibeix
+expressament tota explotació o utilització amb finalitats comercials o professionals.\n
+\t\t3. Que es respectin els drets de propietat intel.lectual. En qualsevol divulgació,
+reproducció, distribució o comunicació pública convé mencionar Geoconsum (©).\n\n
+3. Exclusions i limitacions de responsabilitat.\n\n
+\t3.1. Els textes jurídics que apareixen a Geoconsum s\'ofereixen amb una finalitat
+informativa o divulgativa. Aquesta informació:\n
+\t\t• No és necessàriament exhaustiva, completa, exacta o actualitzada;\n
+\t\t• en algunes ocasions hi ha enllaços a pàgines externes sobre les que no es disposa
+de cap control i per als quals no s\'assumeix cap responsabilitat;\n
+\t\t• En cap cas es pot considerar aquesta aplicació com a consell professional o
+jurídic (si necessita assessorament específic, sempre s\'ha de consultar a un
+professional degudament qualificat).\n\n
+\t3.2. Tingueu en compte que no es pot garantir que un document disponible en línia
+reprodueixi exactament un text adoptat oficialment. Es declina tota responsabilitat
+pels danys que puguin causar-se degut a les inexactituts o incorreccions de les
+disposicions legislatives incloses a Geoconsum.\n\n
+\t3.3. En aquesta aplicació apareixen enllaços o conexions a altres llocs web de
+tercers, sobre els que els autors no tenen cap control. Aquesta informació es
+proporciona únicament a títol informatiu, sense que es pugui garantitzar les
+inexactituts o incorreccions de les mateixes. Els autors no es fan responsables pels
+possibles errors en les dades de contacte subministrades.\n\n
+\t3.4. No es garantitza la inexistència d\'interrupcions o errors en l\'acces a l\'aplicatiu
+mòbil ni al seu contingut, ni a que aquest es trobi permanentment actualitzat,
+sense imprecisions ni exactituts.\n\n
+
+4. Propietat intel.lectual.\n\n
+
+\t4.1. Aquesta aplicació ha estat desenvolupada per Ruben Serrano, Joan Fuentes
+i Josep Suquet per l\'Institut de Dret i Tecnologia de la Universitat Autònoma de
+Barcelona (IDT-UAB).\n\n
+\t4.2. La informació continguda en la base de dades de Geoconsum ha estat
+recopilada de webs d\'ús públic i bases de dades públiques amb una finalitat
+divulgativa i no comercial.\n\n
+\t4.3. El contingut de l\'aplicatiu, entre d\'altres, les imatges, gràfics, el disseny,
+l\'estructura de navegació i programació i la base de dades son titularitat dels seus
+autors.\n\n
+5. Llei aplicable i solució amistosa dels conflictes.\n\n
+
+Aquestes condicions d\'ús es regiran i interpretaran d\'acord a la legislació
+espanyola. Per qualsevol controvèrsia sobre aquesta aplicació les parts es
+comprometen a intentar una solució amistosa a través d\'un procediment de
+mediació.
+	</string>
+	
+	<!-- ##### PREFERENCES ##### -->
+	<string name="preferences_category_warnings_title">Avisos</string>
+	<string name="preferences_category_warnings_getwarnings_title">Veure avisos</string>
+	<string name="preferences_category_warnings_getwarnings_summary">Si està activat, es veurà un avís al cercar oficines.</string>
+		
+	<!-- ##### MENU ##### -->
+	<string name="menu_report_bug_title">Informar de dades erronies</string>
+	<string name="menu_preferences_title">Preferències</string>
+	<string name="menu_about_title">Sobre GeoConsum</string>
+	
+	<!-- ##### REPORT BUG ##### -->
+	<string name="report_bug_selector">Enviar E-mail</string>
+	<string name="report_bug_subject">Avís de dada erronia</string>
+	<string name="report_bug_body">\n\nEl problema es el següent: (explica aquí el problema)</string>
+	<string name="report_bug_emailto">idt.uab@gmail.com</string>
+	<string name="report_bug_location">Hi ha un error a l\'oficina número</string>
+		
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:title="@string/preferences_category_warnings_title">
+
+		<CheckBoxPreference	android:key="PREF_DIALOG_CHECK"
+			android:title="@string/preferences_category_warnings_getwarnings_title"
+			android:summary="@string/preferences_category_warnings_getwarnings_summary"
+			android:defaultValue="true"
+		/>
+		
+	</PreferenceCategory>
+</PreferenceScreen>

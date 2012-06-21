@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distances_to_places">
+		<item>1 km</item>
+		<item>3 kms</item>
+		<item>10 kms</item>
+		<item>20 kms</item>
+		<item>50 kms</item>
+		<item>100 kms</item>
+	</string-array>
+</resources>

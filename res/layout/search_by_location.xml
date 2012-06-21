@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@color/primary_4">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_by_location_Title"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+	</LinearLayout>
+
+    <ScrollView 
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/scrollView1" 
+    	android:layout_height="fill_parent"
+        android:background="@color/white">
+        <LinearLayout 
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            android:padding="20dip">
+
+            <TextView
+                android:id="@+id/textView_TypeOfLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_TypeOfLocation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_3" />
+
+            <Spinner
+                android:id="@+id/spinner_TypeOfLocation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView_TypeOfLocationDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView_AutonomousRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/textView_AutonomousRegion"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_3" />
+
+            <Spinner
+                android:id="@+id/spinner_AutonomousRegion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView_Province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/textView_Province"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="gone" 
+                android:textColor="@color/primary_3"/>
+            
+            <Spinner
+                android:id="@+id/spinner_Province"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone" />
+            
+            <TextView
+                android:id="@+id/textView_Location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/textView_Locality"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="gone" 
+                android:textColor="@color/primary_3"/>
+            
+            <Spinner
+                android:id="@+id/spinner_Location"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone" />
+            
+            <Button 
+                android:text="@string/buttonSearch" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/buttonSearch" 
+                android:layout_marginLeft="50dip" 
+                android:layout_marginRight="50dip" 
+                android:layout_marginTop="20dip" 
+                android:layout_width="fill_parent" 
+                android:visibility="visible"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

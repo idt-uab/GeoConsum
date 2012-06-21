@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regulationdetail_rl_main"
+    android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:visibility="invisible">
+	
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@color/primary_1">
+
+        <TextView
+            android:id="@+id/regulationdetail_text_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>    
+    
+	<ScrollView android:id="@+id/scrollView1"
+	    android:layout_height="fill_parent" 
+		android:layout_width="fill_parent" 
+		android:layout_alignParentTop="true"
+		android:background="@color/white">
+   		
+   		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="5dip" >
+            
+   		    <TextView
+                android:id="@+id/regulationdetail_title_scope"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview_regulationdetail_scope"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:background="@drawable/background_titles" 
+                android:textColor="@color/secondary_A_3" 
+                android:paddingBottom="2dip" 
+                android:paddingLeft="10dip" 
+                android:paddingRight="10dip" 
+                android:paddingTop="2dip" 
+                android:textStyle="bold"/>
+                    
+		    <TextView android:id="@+id/regulationdetail_text_scope" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_2" android:paddingLeft="5dip"/>
+
+            <TextView
+                android:id="@+id/regulationdetail_title_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_titles"
+                android:paddingBottom="2dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="2dip"
+                android:text="@string/textview_regulationdetail_type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_3"
+                android:textStyle="bold" />		    
+		    		    
+		    <TextView android:id="@+id/regulationdetail_text_type" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_2" android:paddingLeft="5dip"/>
+		    
+            <TextView
+                android:id="@+id/regulationdetail_title_subtype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_titles"
+                android:paddingBottom="2dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="2dip"
+                android:text="@string/textview_regulationdetail_subtype"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_3"
+                android:textStyle="bold" />
+		    		    
+		    <TextView android:id="@+id/regulationdetail_text_subtype" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_2" android:paddingLeft="5dip"/>
+		    
+            <TextView
+                android:id="@+id/regulationdetail_title_descripcion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_titles"
+                android:paddingBottom="2dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="2dip"
+                android:text="@string/textview_regulationdetail_descripcion"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_3"
+                android:textStyle="bold" />
+		    		    
+		    <TextView android:id="@+id/regulationdetail_text_descripcion" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_2" android:paddingLeft="5dip"/>
+		    
+            <TextView
+                android:id="@+id/regulationdetail_title_url"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_titles"
+                android:paddingBottom="2dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="2dip"
+                android:text="@string/textview_regulationdetail_url"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/secondary_A_3"
+                android:textStyle="bold"
+                android:visibility="invisible"/>
+            <ImageView
+                    android:id="@+id/regulationdetail_imagebutton_url"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/app_browser_icon" 
+                    android:background="@drawable/nice_button_2"
+                    android:visibility="invisible"
+                    android:contentDescription="@string/textview_placedetail_url"/>	
+                    	    		    
+		    <TextView android:id="@+id/regulationdetail_text_url" 
+		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+		    	android:layout_width="wrap_content" 
+		    	android:text="" 
+		    	android:layout_height="wrap_content" 
+		    	android:layout_marginTop="19dp"
+		    	android:visibility="invisible"/>
+		</LinearLayout>
+   	</ScrollView>
+</LinearLayout>
+

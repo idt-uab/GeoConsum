@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_4" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/search_by_regulation_Title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+    <ScrollView 
+       	android:layout_width="fill_parent" 
+    	android:id="@+id/scrollView1" 
+    	android:layout_height="fill_parent"
+        android:background="@color/white">
+    	
+        <LinearLayout 
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:orientation="vertical" 
+            android:padding="20dip">
+            
+            <TextView
+                android:id="@+id/textView_type_regulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_TypeRegulation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_3" />
+            
+            <Spinner
+                android:id="@+id/spinner_type_regulation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1" />
+            
+            <TextView
+                android:id="@+id/textView_subtype_regulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/textView_SubtypeRegulation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_3" />
+            
+            <Spinner
+                android:id="@+id/spinner_subtype_regulation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1" />
+            
+            <TextView
+                android:id="@+id/textView_AutonomousRegion_regulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="@string/textView_AutonomousRegion"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_3" />
+            
+            <Spinner
+                android:id="@+id/spinner_AutonomousRegion_regulation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1" />
+            
+            <Button android:text="@string/buttonSearch" 
+            	android:layout_height="wrap_content" 
+            	android:id="@+id/buttonSearch_regulation" 
+            	android:layout_marginLeft="50dip" 
+            	android:layout_marginRight="50dip" 
+            	android:layout_marginTop="20dip" 
+            	android:layout_width="fill_parent" 
+            	android:visibility="visible"/>
+            	
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

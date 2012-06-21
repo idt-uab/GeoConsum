@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:padding="10dip">
+     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView01"></ImageView>
+     <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content" android:text="@string/textView_SearchRegulationByTopic"></TextView>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="250dip" android:layout_marginTop="20dip">
+		<EditText android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="20dip" android:id="@+id/txtSearchData" android:inputType="text"></EditText>
+		<ImageButton android:src="@drawable/ic_btn_speak_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dip" android:id="@+id/buttonVoiceRecognition"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+		<Button android:id="@+id/ButtonPositive" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="@string/search"></Button>
+		<Button android:id="@+id/ButtonNegative" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="@string/cancel"></Button>
+	</LinearLayout>
+ </LinearLayout>
+</ScrollView>

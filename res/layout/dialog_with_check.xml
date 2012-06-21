@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+	<RelativeLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" android:paddingBottom="10dip" android:paddingLeft="10dip" android:paddingRight="10dip">
+
+		<ImageView
+		    android:id="@+id/imageViewBanner"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginBottom="10dip"
+		    android:visibility="gone" />
+
+    	<TextView
+    	    android:id="@+id/text_layout"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@id/imageViewBanner"
+    	    android:autoLink="email"
+    	    android:textColor="#FFF" />
+
+	    <CheckBox
+	        android:id="@+id/checkBox1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/text_layout"
+	        android:layout_marginTop="18dp"
+	        android:checked="true"
+	        android:text="@string/show_again" />
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@id/checkBox1"
+	        android:layout_below="@id/text_layout"
+	        android:text="@string/dialog_ok" />
+
+	</RelativeLayout>    
+
+</ScrollView>
+
